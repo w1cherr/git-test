@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <div>这里是公共代码</div>
     </div>
     <router-view/>
   </div>
