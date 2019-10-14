@@ -2,9 +2,6 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" class="commonClass">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <div>这里是b分支</div>
-    <div>这里是b分支2</div>
-    <div>这里是b分支3</div>
   </div>
 </template>
 
