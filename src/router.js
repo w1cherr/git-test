@@ -8,6 +8,7 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
+    // commom router
     {
       path: '/',
       name: 'home',
@@ -26,11 +27,10 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
-    // own router
     {
-      path: '/bbb',
-      name: 'bPath',
+      path: '/common',
+      name: 'common',
       component: Home
-    }
+    },
   ]
 })
