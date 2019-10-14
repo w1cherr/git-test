@@ -27,11 +27,5 @@ export default new Router({
       name: 'common',
       component: Home
     },
-    // own router
-    {
-      path: '/aaa',
-      name: 'a-path',
-      component: Home
-    }
   ]
 })
