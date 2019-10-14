@@ -32,10 +32,20 @@ export default new Router({
       name: 'common',
       component: Home
     },
+    {
+      path: '/common3',
+      name: 'common3',
+      component: Home
+    },
     // own router
     {
       path: '/aaa',
       name: 'a-path',
+      component: Home
+    },
+    {
+      path: '/aaa2',
+      name: 'a-path2',
       component: Home
     }
   ]
