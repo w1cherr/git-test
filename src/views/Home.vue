@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" class="commonClass">
+    <img alt="Vue logo" src="../assets/logo.png" class="bClass">
     <HelloWorld msg="Welcome to Your Vue.js App" class="commonClass"/>
   </div>
 </template>
