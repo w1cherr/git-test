@@ -15,6 +15,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '/common2',
+      name: 'common2',
+      component: Home
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
