@@ -41,17 +41,6 @@ export default new Router({
       path: '/common4',
       name: 'common4',
       component: Home
-    },
-    // own router
-    {
-      path: '/bbb',
-      name: 'b-path',
-      component: Home
-    },
-    {
-      path: '/bbb2',
-      name: 'b-path2',
-      component: Home
     }
   ]
 })
