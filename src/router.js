@@ -37,6 +37,11 @@ export default new Router({
       name: 'common3',
       component: Home
     },
+    {
+      path: '/common4',
+      name: 'common4',
+      component: Home
+    },
     // own router
     {
       path: '/bbb',
