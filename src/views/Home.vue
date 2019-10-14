@@ -5,7 +5,6 @@
     <div>公共代码</div>
     <div>提交了一些公共代码上去</div>
     <div>公共代码2</div>
-    <div>b分支个性代码</div>
   </div>
 </template>
 
