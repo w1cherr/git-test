@@ -41,17 +41,6 @@ export default new Router({
       path: '/common4',
       name: 'common4',
       component: Home
-    },
-    // own router
-    {
-      path: '/aaa',
-      name: 'a-path',
-      component: Home
-    },
-    {
-      path: '/aaa2',
-      name: 'a-path2',
-      component: Home
     }
   ]
 })
